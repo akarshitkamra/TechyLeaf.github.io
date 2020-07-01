@@ -12,7 +12,7 @@
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 10px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -21,7 +21,8 @@
     color: black;
     cursor: pointer;
     padding: 10px;
-    border-radius: 100px;
+    border-radius: 5px;
+    opacity: 70%;
   }
   
   #myBtn:hover {
