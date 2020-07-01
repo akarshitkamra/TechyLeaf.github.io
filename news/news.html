@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechyLeaf | News</title>
+    <link rel="icon" href="../Images/newtitleLogo.png" type="image/icon type">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <button onclick="topFunction()"  id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i> </button>
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-4" style="background-color: black;">
+        
+        <a class="navbar-brand font-weight-bold"  href="../index.html">Techy<span style="color: #0d59ff;">Leaf</span></a>
+        <button class="navbar-toggler py-2 px-3" style="background-color: black;color: white;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="font-weight-bold" style="position: relative;;"><i class="fa fa-align-justify"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-4">
+                <li class="nav-item active">
+                    <a class="nav-link text-danger" href="../index.html"><i class="fa fa-home"></i> <b>HOME</b><span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="../FAQs/faq.html">FAQ</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="../readmore/readmore.html">ABOUT US</a>
+                </li>                
+                              
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-primary mx-2 text-light" id="subscribe" href="../login/login.html">SUBSCRIBE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4 text-right">
+                <hr style="border: 1px solid blue">
+            </div>
+            <div class="col-md-4 text-center"> 
+                <h3>Latest<span class="text-primary">Updates</span></h3>
+            </div>
+            <div class="col-md-4 text-left">
+                <hr style="border: 1px solid blue">
+            </div>
+        </div>
+    </div>
+
+    <div id="demo" class="carousel slide my-5" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Images/server.jpg" alt="Cyber Attacks">
+                <div class="carousel-caption ">
+                    <h2 class="text-warning" >India steps up vigil for cyber attacks from <br> China after apps ban.</h2>
+                    <a href="./cyber.html" class="btn btn-danger my-3">Read More</a>
+                </div>
+              </div>
+          <div class="carousel-item ">
+            <img src="../Images/oneplusnord.jpg" alt="Oneplus Nord">
+            <div class="carousel-caption text-left">
+                <h2 class="text-light">OnePlus confirms its upcoming cheaper <br>  phones will be called 'NORD'</h2>
+                <a href="oneplus.html" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/tiktokban.jpg" alt="Chinese Apps Ban">
+            <div class="carousel-caption text-right" >
+                <h2 class="text-light">India BANS 59 CHINESE Apps <br> Here's what you need to know</h2>
+                <a href="./tiktokban.html" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+          <div class="carousel-item" id="">
+            <img src="../Images/ps5.webp" alt="Sony PS-5">
+            <div class="carousel-caption ">
+                <h2 class="text-dark">Sony Launches PS5</h2>
+                <a href="" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+          
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>      
+    </div>
+      
+      <div class="container my-5 py-5">
+          <div class="row">
+              <div class="col-md-4"><hr style="border: 1px solid rgb(10, 74, 248)"></div>
+              <div class="col-md-4 text-center font-weight-bold"><h3>Headlines</h3></div>
+              <div class="col-md-4"><hr style="border: 1px solid rgb(10, 74, 248)"></div>
+          </div>
+      </div>
+
+    <div class="container my-5 py-4 px-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../Images/server.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">India steps up vigil for cyber attacks from China after apps ban.</h5>
+                      <p class="card-text text-secondary"><i>Cyber Security Experts say app ban was just a start..</i></p>
+                      <a href="./cyber.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../Images/nord.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">OnePlus confirms new cheaper phones to be called Nord.</h5>
+                      <p class="card-text text-secondary"><i>The first OnePlus Nord will be released in Europe and India</i></p>
+                      <a href="oneplus.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../Images/ps5.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Sony just revealed its PS5 console: Here's what we know</h5>
+                      <p class="card-text text-secondary"><i>The highly anticipated PlayStation5 has finally been unveiled</i></p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../Images/tiktokban.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">India bans 59 Chinese apps including TikTok, Helo, WeChat</h5>
+                      <p class="card-text text-secondary"><i>ShareIT, UC Browser and shopping app Clubfactory are among other prominent apps which have been banned</i></p>
+                      <a href="./tiktokban.html" class="btn btn-primary">Read More</a>
+                    </div>                    
+                </div>                
+            </div> 
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="../Images/oneplustv.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">OnePlus to launch new affordable smart TVs on July 2</h5>
+                      <p class="card-text text-secondary"><i>Ahead of the launch, some key information about the upcoming OnePlus smart TVs has already made its way to the web.</i></p>
+                      <a href="./oneplustv.html" class="btn btn-primary">Read More</a>
+                    </div>                    
+                </div>                
+            </div>                        
+        </div>
+    </div>
+        
+
+    <footer id="footer" style="background-color: black;">
+        <div class="container-fluid py-4 text-light">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="my-3"><span class="text-light">Techy</span><span class="text-primary">Leaf</span></h3>
+                    <h4>Your Daily Tech Updates</h4>
+                    <p>
+                        <address>
+                            Chitkara University <br>
+                            Distt. Solan <br>
+                            Himachal Pradesh - 134003 <br>
+                            Email: <a id="mail" href="mailto:akamra.cse18@chitkarauniversity.edu.in">team@techyleaf.io</a>
+                        </address>
+                    </p>
+
+                    <h5>Social Links:</h5>
+                    <div class="row al">
+                        <div class="ml-3 mr-2 ">
+                            <a href="https://www.instagram.com/techyleaf/?hl=en"><i class="fa fa-instagram"></i></a>
+                        </div>
+                        <div class="mx-2 ">
+                            <a href=""><i class="fa fa-google"></i></a>
+                        </div>
+                        <div class="mx-2 ">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-6 text-left">
+                    <h3 class="text-primary my-3">Contact Us:</h3>
+                    <form action="" onsubmit="myfunction()" >                        
+                        <div class="form-group">
+                            <input type="text" class="form-control border-0"  required placeholder="Full Name" name="full-name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control border-0" required placeholder="Email" name="email">
+                        </div>
+                        <textarea name="message" class="form-control border-0"  required  placeholder="Your Message..."></textarea>
+                        <input type="submit" id="send-btn" value="SEND" class="btn btn-primary  my-3"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid col-md-12 py-2" style="position: absolute; background-color: black;">
+            <div id="bottom" >
+                <p class="text-light text-center"><span class="mx-3">Made in India</span> &copy<span class="text-light">Techy</span><span class="text-primary">Leaf</span> India</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script>
+    
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";}
+        else {
+            mybutton.style.display = "none";}
+    }
+
+// When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function myfunction(){
+        alert("Thank you for Contacting Us. We'll get back to you ASAP!");
+    }
+</script>
+</html>

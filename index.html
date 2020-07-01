@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechyLeaf | Daily Tech Updates</title>
+    <link rel="icon" href="./Images/newtitleLogo.png" type="image/icon type">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <button onclick="topFunction()"  id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i> </button>
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-4" style="background-color: black;">
+        
+        <a class="navbar-brand font-weight-bold"  href="index.html">Techy<span style="color: #0d59ff;">Leaf</span></a>
+        <button class="navbar-toggler py-2 px-3" style="background-color: black;color: white;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="font-weight-bold" style="position: relative;;"><i class="fa fa-align-justify"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-4">
+                <li class="nav-item active">
+                    <a class="nav-link text-danger" href="./index.html"><i class="fa fa-home"></i> <b>HOME</b><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./news/news.html">NEWS</a>                                        
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./FAQs/faq.html">FAQ</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./readmore/readmore.html">ABOUT US</a>
+                </li>                
+                              
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-primary mx-2 text-light" id="subscribe" href="./login/login.html">SUBSCRIBE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-md-6 d-flex  align-items-center px-4">
+                <div class="d-flex flex-column ">                    
+                    <h1 onclick="window.location.href='./index.html'" class="text-dark font-weight-bold">Techy<span class="text-primary">Leaf</span></h1>
+                    <h3 class="my-4">Your Daily Tech Updates <br> at your finger tips.</h3>
+                    <p class="h5 text-secondary ">We provide you all the latest news about technology <br> and latest updates available for you out there</p>
+                    <div class="my-4"><a href="./readmore/readmore.html" class="btn btn-outline-primary px-4 btn-md font-weight-bold">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/android.png" class="w-100">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid about-page" style="background-color: black;margin-top:100px;">
+        <div class="container" style="height:100px;position: relative; top: -80px;">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card bg-light shadow-sm border-0 p-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                            <i class="fa fa-tablet fa-2x text-primary"></i>
+                            <h5 onclick="window.location.href='./news/news.html'" style="cursor: pointer;" class="text-primary">Smartphones</h5>
+                            <p>We provide latest tech news about new smartphones launches, latest updates and more.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card bg-light shadow-sm border-0 p-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                            <i class="fa fa-laptop fa-2x text-primary" aria-hidden="true"></i>
+                            <h5 class="text-primary" onclick="window.location.href='./news/news.html'" style="cursor: pointer;">Laptops</h5>
+                            <p>We work on providing you the best options for your gaming and computing needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card bg-light border-0 p-4">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center">
+                            <i class="fa fa-windows fa-2x text-primary" aria-hidden="true"></i>
+                            <h5 class="text-primary" onclick="window.location.href='./news/news.html'" style="cursor: pointer;">OS</h5>
+                            <p>Latest news about your favourite OS and various updates. Find more on TechyLeaf.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid achievent" style="background-color: black;">
+        <div class="container text-light text-center">
+            <h1 class="text-primary">Our Goal</h1>
+            <p class="h5">Our goal is to provide the latest tech news, to technophiles all around the globe. <br> 
+            We try our best to provide you with the latest tech news about various launches of games, smartphones, laptops, operating systems and events happening all around the world.
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-md-6 p-4 d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <h3>OUR RESULT</h3>
+                    <p>We are a team of like-minded people who do business, generate ideas and realize them. Finance, Marketing, Jurisprudence and Business Economy are our directions and we know how to deal with many financial issues.</p>
+                    <div class="mt-3"><button class="btn btn-dark px-4 btn-md py-2">READ MORE</button></div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column p-4">
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JAN 80%</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">FEB 90%</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MAR 60%</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">APR 50%</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">MAY 70%</div>
+                </div>
+                <div class="progress mb-4">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JUN 80%</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./images/undraw_finance_0bdk.png" class="w-100">
+            </div>
+            <div class="col-md-6 d-flex flex-column">
+                <div class="mb-4">
+                    <h4>01. Startups</h4>
+                    <h5 class="text-secondary">Startuppers receive assistance in financial, legal, economical and human resources</h5>
+                </div>
+                <div class="mb-4">
+                    <h4>02. Anti-Crisis</h4>
+                    <h5 class="text-secondary">Marketing research, analysis and creating marketing plan</h5>
+                </div>
+                <div class="mb-4">
+                    <h4>03. Finance</h4>
+                    <h5 class="text-secondary">We provide businesses with all financial services including consultations, financial analysis</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4 text-center">
+        <h3>Our Pricing</h3>
+        <p>This service includes your business analysis, marketing researches and financial<br> planning.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm bg-light">
+                    <div class="card-body">
+                        <h6 class="text-secondary">1 USER</h6>
+                        <h4>Free</h4>
+                        <h6>$0/ month</h6>
+                        <h6 class="text-secondary">Phasellus tincidunt ulcorper fringilla.</h6>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <button class="btn btn-dark">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm bg-light">
+                    <div class="card-body">
+                        <h6 class="text-secondary">2 USER</h6>
+                        <h4>Basic</h4>
+                        <h6>$10/ month</h6>
+                        <h6 class="text-secondary">Phasellus tincidunt ulcorper fringilla.</h6>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <button class="btn btn-dark">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm bg-light">
+                    <div class="card-body">
+                        <h6 class="text-secondary">5 USER</h6>
+                        <h4>Premium</h4>
+                        <h6>$100/ month</h6>
+                        <h6 class="text-secondary">Phasellus tincidunt ulcorper fringilla.</h6>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <p><i class="fa fa-check-circle mr-2"></i>scelerisque ultricies rutrum.</p>
+                        <button class="btn btn-dark">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" style="background-color: black;">
+        <div class="container-fluid py-4 text-light">
+            <div class="row">
+                <div class="col-md-6 text-light">
+                    <h3 class="my-3 font-weight-bold"><span class="text-light">Techy</span><span class="text-primary">Leaf</span></h3>
+                    <h5>Your Daily Tech Updates</h5>
+                    <p>
+                        <address>
+                            Chitkara University <br>
+                            Distt. Solan <br>
+                            Himachal Pradesh - 134003 <br>
+                            Email: <a id="mail" href="mailto:akamra.cse18@chitkarauniversity.edu.in">team@techyleaf.io</a>
+                        </address>
+                    </p>
+
+                    <h5>Social Links:</h5>
+                    <div class="row al">
+                        <div class="ml-3 mr-2 ">
+                            <a href="https://www.instagram.com/techyleaf/?hl=en"><i class="fa fa-instagram"></i></a>
+                        </div>
+                        <div class="mx-2 ">
+                            <a href=""><i class="fa fa-google"></i></a>
+                        </div>
+                        <div class="mx-2 ">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                        </div>
+                    </div>                   
+                    
+                </div>
+
+                <div class="col-md-6 text-left">
+                    <h3 class="text-primary my-3">Contact Us:</h3>
+                    <form action="" onsubmit="myfunction()" >                        
+                        <div class="form-group">
+                            <input type="text" class="form-control border-0"  required placeholder="Full Name" name="full-name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control border-0" required placeholder="Email" name="email">
+                        </div>
+                        <textarea name="message" class="form-control border-0"  required  placeholder="Your Message..."></textarea>
+                        <input type="submit" id="send-btn" value="SEND" class="btn btn-primary  my-3"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid col-md-12 py-2" style="position: absolute; background-color: black;">
+            <div id="bottom" >
+                <p class="text-light text-center"><span class="mx-3">Made in India</span> &copy<span class="text-light">Techy</span><span class="text-primary">Leaf</span> India</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script>
+    
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";}
+        else {
+            mybutton.style.display = "none";}
+    }
+
+// When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function myfunction(){
+        alert("Thank you for Contacting Us. We'll get back to you ASAP!");
+    }
+</script>
+</html>

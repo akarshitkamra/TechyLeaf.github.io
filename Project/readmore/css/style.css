@@ -1,0 +1,83 @@
+.btn:focus {
+    outline: none !important;
+}
+
+.btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(26, 77, 241);
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(26, 77, 241) ;
+    color: white;
+  }
+
+
+.navbar-brand {
+    color: red;
+}
+
+@media(max-width:768px) {
+    .about-page {
+        height: 850px;
+    }
+    .achievent {
+        height: 620px;
+    }
+}
+
+@media(min-width:768px) {
+    .about-page {
+        height: 200px;
+    }
+    .achievent {
+        height: 250px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(13, 19, 22) ; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 138, 252);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(224, 29, 29); 
+  }
+
+  #mail:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.fa:hover{
+    color: red;
+    zoom: 1.2;
+}
