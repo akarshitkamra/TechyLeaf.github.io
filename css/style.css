@@ -33,10 +33,7 @@
   #subscribe:hover{
       color: black !important;
   }
-  {
-    background: black;
-    background: linear-gradient(to right, #5edfff, rgba(29, 15, 13, 0.575));
-  }
+  
 
 
 .navbar-brand {
