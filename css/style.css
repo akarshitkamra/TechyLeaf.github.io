@@ -86,7 +86,9 @@
       color: red;
       font-weight: bold;
   }
-  .fa:hover{
+  .fa-facebook:hover,
+  .fa-instagram:hover,
+  .fa-google:hover{
       color: red;
       zoom: 1.2;
   }
